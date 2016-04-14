@@ -9,7 +9,7 @@ cfg = require 'config'
 
 connection = mysql.createConnection
 	host: host
-	user: usernmae
+	user: username
 	password: password
 	database: dbname
 
